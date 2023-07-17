@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dao",
+	"version": "${version}",
+	"name": "Dao",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dao/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.braydenoneal.dao.ExampleMod"
+		],
+		"fabric-datagen": [
+			"com.braydenoneal.dao.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"dao.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

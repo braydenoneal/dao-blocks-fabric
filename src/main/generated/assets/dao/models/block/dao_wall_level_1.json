@@ -1,0 +1,147 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#1",
+          "uv": [
+            0,
+            4,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#1",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#1",
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#1",
+          "uv": [
+            0,
+            3,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#1",
+          "uv": [
+            4,
+            3,
+            12,
+            16
+          ]
+        }
+      },
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "name": "dao_wall_level_1",
+      "to": [
+        16,
+        13,
+        12
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#0",
+          "uv": [
+            3,
+            0,
+            13,
+            3
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#0",
+          "uv": [
+            0,
+            3,
+            16,
+            13
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#0",
+          "uv": [
+            3,
+            0,
+            13,
+            3
+          ]
+        }
+      },
+      "from": [
+        0,
+        13,
+        3
+      ],
+      "name": "dao_wall_level_1",
+      "to": [
+        16,
+        16,
+        13
+      ]
+    }
+  ],
+  "textures": {
+    "0": "dao:block/beam",
+    "1": "dao:block/plank",
+    "2": "dao:block/wall",
+    "3": "dao:block/column",
+    "4": "dao:block/beam_top",
+    "particle": "dao:block/beam"
+  }
+}

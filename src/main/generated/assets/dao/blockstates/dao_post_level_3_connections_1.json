@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dao:block/dao_post_level_3_connections_1",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dao:block/dao_post_level_3_connections_1",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dao:block/dao_post_level_3_connections_1",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "dao:block/dao_post_level_3_connections_1",
+      "y": 90
+    }
+  }
+}

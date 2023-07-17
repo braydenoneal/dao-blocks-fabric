@@ -1,0 +1,339 @@
+{
+  "parent": "block/block",
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        135,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#4",
+          "uv": [
+            8,
+            14,
+            12,
+            15
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#3",
+          "uv": [
+            8,
+            1,
+            12,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            1,
+            0,
+            2,
+            4
+          ]
+        }
+      },
+      "from": [
+        8,
+        12,
+        1
+      ],
+      "name": "dao_post_level_6_connections_1",
+      "to": [
+        12,
+        16,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#4",
+          "uv": [
+            8,
+            1,
+            12,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            8,
+            0,
+            12,
+            4
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#3",
+          "uv": [
+            8,
+            14,
+            12,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            14,
+            0,
+            15,
+            4
+          ]
+        }
+      },
+      "from": [
+        8,
+        12,
+        14
+      ],
+      "name": "dao_post_level_6_connections_1",
+      "to": [
+        12,
+        16,
+        15
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#3",
+          "uv": [
+            4,
+            2,
+            12,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#3",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#3",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#3",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#3",
+          "uv": [
+            4,
+            2,
+            12,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#3",
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ]
+        }
+      },
+      "from": [
+        4,
+        0,
+        2
+      ],
+      "name": "dao_post_level_6_connections_1",
+      "to": [
+        12,
+        16,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#4",
+          "uv": [
+            12,
+            1,
+            16,
+            15
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#0",
+          "uv": [
+            1,
+            0,
+            15,
+            4
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            12,
+            0,
+            16,
+            4
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#3",
+          "uv": [
+            12,
+            1,
+            16,
+            15
+          ]
+        }
+      },
+      "from": [
+        12,
+        12,
+        1
+      ],
+      "name": "dao_post_level_6_connections_1",
+      "to": [
+        16,
+        16,
+        15
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#2",
+          "uv": [
+            12,
+            4,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#2",
+          "uv": [
+            4,
+            4,
+            12,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#2",
+          "uv": [
+            0,
+            4,
+            4,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#2",
+          "uv": [
+            12,
+            4,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        12,
+        0,
+        4
+      ],
+      "name": "dao_post_level_6_connections_1",
+      "to": [
+        16,
+        12,
+        12
+      ]
+    }
+  ],
+  "textures": {
+    "0": "dao:block/beam",
+    "1": "dao:block/plank",
+    "2": "dao:block/wall",
+    "3": "dao:block/column",
+    "4": "dao:block/beam_top",
+    "particle": "dao:block/beam"
+  }
+}
