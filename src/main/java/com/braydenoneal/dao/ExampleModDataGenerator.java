@@ -1,13 +1,12 @@
 package com.braydenoneal.dao;
 
+import com.braydenoneal.dao.util.CompletableFutureStream;
+import com.braydenoneal.dao.util.json.JsonWriter;
 import com.braydenoneal.dao.util.json.blockstate.Blockstate;
-import com.braydenoneal.dao.util.json.blockstate.Variant;
-import com.braydenoneal.dao.util.json.model.Display;
-import com.braydenoneal.dao.util.json.model.GUI;
 import com.braydenoneal.dao.util.json.model.Model;
 import com.braydenoneal.dao.util.json.model.ModelInventory;
+import com.braydenoneal.dao.util.json.model.ModelItem;
 import com.google.gson.Gson;
-import com.google.gson.JsonParser;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -17,8 +16,6 @@ import net.minecraft.data.DataWriter;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
@@ -49,7 +46,7 @@ public class ExampleModDataGenerator implements DataGeneratorEntrypoint {
 					.distinct();
 
 			// Create json file for each unique element name
-			CompletableFuture<?>[] writes = elementNames.map((elementName) -> {
+			return CompletableFutureStream.of(elementNames.map(elementName -> {
 				Model blockModel = new Model(
 						model.textures,
 						model.elements
@@ -60,16 +57,15 @@ public class ExampleModDataGenerator implements DataGeneratorEntrypoint {
 
 				Model blockModelInventory = new ModelInventory(blockModel);
 				Blockstate blockstate = new Blockstate(elementName);
+				ModelItem blockModelItem = new ModelItem("dao:block/" + elementName + "_inventory");
 
-				return CompletableFuture.allOf(
-						DataProvider.writeToPath(writer, new Gson().toJsonTree(blockModel), dataOutput.getPath().resolve("assets/dao/models/block/" + elementName + ".json")),
-						DataProvider.writeToPath(writer, new Gson().toJsonTree(blockModelInventory), dataOutput.getPath().resolve("assets/dao/models/block/" + elementName + "_inventory.json")),
-						DataProvider.writeToPath(writer, JsonParser.parseString("{\"parent\": \"dao:block/" + elementName + "_inventory\"}"), dataOutput.getPath().resolve("assets/dao/models/item/" + elementName + ".json")),
-						DataProvider.writeToPath(writer, new Gson().toJsonTree(blockstate), dataOutput.getPath().resolve("assets/dao/blockstates/" + elementName + ".json"))
+				return JsonWriter.create(writer, dataOutput).write(
+						JsonWriter.entry(blockModel, "assets/dao/models/block/", elementName),
+						JsonWriter.entry(blockModelInventory, "assets/dao/models/block/", elementName + "_inventory"),
+						JsonWriter.entry(blockModelItem, "assets/dao/models/item/", elementName),
+						JsonWriter.entry(blockstate, "assets/dao/blockstates/", elementName)
 				);
-			}).toArray(CompletableFuture<?>[]::new);
-
-			return CompletableFuture.allOf(writes);
+			}));
 		}
 
 		@Override
