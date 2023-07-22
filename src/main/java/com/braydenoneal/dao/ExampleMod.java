@@ -22,7 +22,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
 
@@ -49,13 +48,7 @@ public class ExampleMod implements ModInitializer {
 
 		// Create block for each unique element name
 		elementNames.forEach(elementName -> {
-			List<List<Integer>> elementShapes = model.elements
-					.stream()
-					.filter(element -> element.name.equals(elementName))
-					.map(element -> Stream.concat(element.from.stream(), element.to.stream()).toList())
-					.toList();
-
-			Block block = new DaoBlock(FabricBlockSettings.create().strength(4.0f), elementShapes);
+			Block block = new DaoBlock(FabricBlockSettings.create().strength(4.0f), Model.getShapesOf(model.elements.stream().filter(element -> element.name.equals(elementName))));
 			Registry.register(Registries.BLOCK, new Identifier("dao", elementName), block);
 			Registry.register(Registries.ITEM, new Identifier("dao", elementName), new BlockItem(block, new FabricItemSettings()));
 			ItemGroupEvents.modifyEntriesEvent(RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier("dao", "dao"))).register(entries -> entries.add(block));
