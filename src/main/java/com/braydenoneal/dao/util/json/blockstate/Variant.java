@@ -1,4 +1,4 @@
-package com.braydenoneal.dao.blockstate;
+package com.braydenoneal.dao.util.json.blockstate;
 
 public class Variant {
 	public String model;
@@ -7,5 +7,9 @@ public class Variant {
 	public Variant(String model, int y) {
 		this.model = model;
 		this.y = y;
+	}
+
+	public static Variant of(String model, int y) {
+		return new Variant(model, y);
 	}
 }

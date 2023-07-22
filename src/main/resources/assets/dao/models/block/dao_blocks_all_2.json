@@ -1,0 +1,2792 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "dao:block/beam",
+		"1": "dao:block/plank",
+		"2": "dao:block/wall",
+		"3": "dao:block/column",
+		"4": "dao:block/beam_top",
+		"particle": "dao:block/beam"
+	},
+	"elements": [
+		{
+			"name": "dao_post_level_1_connections_0",
+			"from": [44, 0, 92],
+			"to": [52, 16, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_1",
+			"from": [44, 0, 58],
+			"to": [52, 16, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_1",
+			"from": [52, 13, 59],
+			"to": [56, 16, 69],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_1",
+			"from": [52, 0, 60],
+			"to": [56, 13, 68],
+			"faces": {
+				"north": {"uv": [0, 3, 4, 16], "texture": "#1"},
+				"east": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [12, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_2",
+			"from": [42, 0, 26],
+			"to": [54, 16, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_2",
+			"from": [54, 0, 28],
+			"to": [56, 13, 36],
+			"faces": {
+				"north": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"east": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_2",
+			"from": [54, 13, 27],
+			"to": [56, 16, 37],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_2",
+			"from": [44, 0, 38],
+			"to": [52, 13, 40],
+			"faces": {
+				"east": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"south": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_2",
+			"from": [43, 13, 38],
+			"to": [53, 16, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [40, 0, -4],
+			"to": [44, 13, 0],
+			"faces": {
+				"north": {"uv": [12, 3, 16, 16], "texture": "#1"},
+				"west": {"uv": [4, 3, 8, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [0, 8, 4, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [40, 13, -5],
+			"to": [44, 16, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [3, 0, 8, 3], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 8, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [44, 0, -6],
+			"to": [52, 16, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [52, 13, -5],
+			"to": [56, 16, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"east": {"uv": [8, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 3, 16, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 8, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [52, 0, -4],
+			"to": [56, 13, 0],
+			"faces": {
+				"north": {"uv": [0, 3, 4, 16], "texture": "#1"},
+				"east": {"uv": [8, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"down": {"uv": [12, 8, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [42, 0, 0],
+			"to": [54, 16, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [40, 0, 0],
+			"to": [42, 13, 4],
+			"faces": {
+				"south": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"west": {"uv": [8, 3, 12, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 8], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [40, 13, 0],
+			"to": [42, 16, 5],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"west": {"uv": [8, 0, 13, 3], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [54, 0, 0],
+			"to": [56, 13, 4],
+			"faces": {
+				"east": {"uv": [4, 3, 8, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [14, 4, 16, 8], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [54, 13, 0],
+			"to": [56, 16, 5],
+			"faces": {
+				"east": {"uv": [3, 0, 8, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [14, 8, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [44, 0, 6],
+			"to": [52, 13, 8],
+			"faces": {
+				"east": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"south": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_3",
+			"from": [43, 13, 6],
+			"to": [53, 16, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [42, 0, -38],
+			"to": [54, 16, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [43, 13, -26],
+			"to": [53, 16, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [44, 0, -26],
+			"to": [52, 13, -24],
+			"faces": {
+				"east": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"south": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [54, 13, -37],
+			"to": [56, 16, -27],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [54, 0, -36],
+			"to": [56, 13, -28],
+			"faces": {
+				"north": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"east": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [44, 0, -40],
+			"to": [52, 13, -38],
+			"faces": {
+				"north": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [43, 13, -40],
+			"to": [53, 16, -38],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"up": {"uv": [3, 0, 13, 2], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 14, 13, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [40, 0, -36],
+			"to": [42, 13, -28],
+			"faces": {
+				"north": {"uv": [14, 3, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 3, 2, 16], "texture": "#1"},
+				"west": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_4",
+			"from": [40, 13, -37],
+			"to": [42, 16, -27],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 3], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 3], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_opposite",
+			"from": [44, 0, -70],
+			"to": [52, 16, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_opposite",
+			"from": [40, 13, -69],
+			"to": [44, 16, -59],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_opposite",
+			"from": [40, 0, -68],
+			"to": [44, 13, -60],
+			"faces": {
+				"north": {"uv": [12, 3, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 3, 4, 16], "texture": "#1"},
+				"west": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [0, 4, 4, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_opposite",
+			"from": [52, 0, -68],
+			"to": [56, 13, -60],
+			"faces": {
+				"north": {"uv": [0, 3, 4, 16], "texture": "#1"},
+				"east": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [12, 3, 16, 16], "texture": "#1"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_1_connections_opposite",
+			"from": [52, 13, -69],
+			"to": [56, 16, -59],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_0",
+			"from": [44, 32, 92],
+			"to": [52, 48, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_1",
+			"from": [44, 32, 58],
+			"to": [52, 48, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_1",
+			"from": [52, 35, 61],
+			"to": [56, 48, 67],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 13], "texture": "#2"},
+				"east": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [12, 5, 16, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_1",
+			"from": [52, 32, 60],
+			"to": [56, 35, 68],
+			"faces": {
+				"north": {"uv": [0, 13, 4, 16], "texture": "#0"},
+				"east": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [12, 4, 16, 12], "texture": "#4"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_2",
+			"from": [42, 32, 26],
+			"to": [54, 48, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_2",
+			"from": [54, 32, 28],
+			"to": [56, 35, 36],
+			"faces": {
+				"north": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"east": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [14, 4, 16, 12], "texture": "#4"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_2",
+			"from": [54, 35, 29],
+			"to": [56, 48, 35],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"east": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [14, 5, 16, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_2",
+			"from": [44, 32, 38],
+			"to": [52, 35, 40],
+			"faces": {
+				"east": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"south": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#4"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_2",
+			"from": [45, 35, 38],
+			"to": [51, 48, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"south": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [5, 14, 11, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [40, 32, -4],
+			"to": [44, 35, 0],
+			"faces": {
+				"north": {"uv": [12, 13, 16, 16], "texture": "#0"},
+				"west": {"uv": [4, 13, 8, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 4, 4, 8], "texture": "#4"},
+				"down": {"uv": [0, 8, 4, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [40, 35, -3],
+			"to": [44, 48, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 13], "texture": "#2"},
+				"west": {"uv": [5, 0, 8, 13], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 5, 4, 8], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [44, 32, -6],
+			"to": [52, 48, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [52, 35, -3],
+			"to": [56, 48, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 13], "texture": "#2"},
+				"east": {"uv": [8, 0, 11, 13], "texture": "#2", "cullface": "east"},
+				"up": {"uv": [12, 5, 16, 8], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [52, 32, -4],
+			"to": [56, 35, 0],
+			"faces": {
+				"north": {"uv": [0, 13, 4, 16], "texture": "#0"},
+				"east": {"uv": [8, 13, 12, 16], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 4, 16, 8], "texture": "#4"},
+				"down": {"uv": [12, 8, 16, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [42, 32, 0],
+			"to": [54, 48, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [40, 32, 0],
+			"to": [42, 35, 4],
+			"faces": {
+				"south": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"west": {"uv": [8, 13, 12, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 12], "texture": "#4"},
+				"down": {"uv": [0, 4, 2, 8], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [40, 35, 0],
+			"to": [42, 48, 3],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"west": {"uv": [8, 0, 11, 13], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [54, 32, 0],
+			"to": [56, 35, 4],
+			"faces": {
+				"east": {"uv": [4, 13, 8, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [14, 8, 16, 12], "texture": "#4"},
+				"down": {"uv": [14, 4, 16, 8], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [54, 35, 0],
+			"to": [56, 48, 3],
+			"faces": {
+				"east": {"uv": [5, 0, 8, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [14, 8, 16, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [44, 32, 6],
+			"to": [52, 35, 8],
+			"faces": {
+				"east": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"south": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#4"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_3",
+			"from": [45, 35, 6],
+			"to": [51, 48, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"south": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [5, 14, 11, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [42, 32, -38],
+			"to": [54, 48, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [45, 35, -26],
+			"to": [51, 48, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"south": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [5, 14, 11, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [44, 32, -26],
+			"to": [52, 35, -24],
+			"faces": {
+				"east": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"south": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#4"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [54, 35, -35],
+			"to": [56, 48, -29],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"east": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [14, 5, 16, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [54, 32, -36],
+			"to": [56, 35, -28],
+			"faces": {
+				"north": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"east": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [14, 4, 16, 12], "texture": "#4"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [44, 32, -40],
+			"to": [52, 35, -38],
+			"faces": {
+				"north": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"up": {"uv": [4, 0, 12, 2], "texture": "#4"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [45, 35, -40],
+			"to": [51, 48, -38],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"west": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"up": {"uv": [5, 0, 11, 2], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [40, 32, -36],
+			"to": [42, 35, -28],
+			"faces": {
+				"north": {"uv": [14, 13, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"west": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 4, 2, 12], "texture": "#4"},
+				"down": {"uv": [0, 4, 2, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_4",
+			"from": [40, 35, -35],
+			"to": [42, 48, -29],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 13], "texture": "#2"},
+				"south": {"uv": [0, 0, 2, 13], "texture": "#2"},
+				"west": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 5, 2, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_opposite",
+			"from": [44, 32, -70],
+			"to": [52, 48, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_opposite",
+			"from": [40, 35, -67],
+			"to": [44, 48, -61],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 13], "texture": "#2"},
+				"south": {"uv": [0, 0, 4, 13], "texture": "#2"},
+				"west": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 5, 4, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_opposite",
+			"from": [40, 32, -68],
+			"to": [44, 35, -60],
+			"faces": {
+				"north": {"uv": [12, 13, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 13, 4, 16], "texture": "#0"},
+				"west": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 4, 4, 12], "texture": "#4"},
+				"down": {"uv": [0, 4, 4, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_opposite",
+			"from": [52, 32, -68],
+			"to": [56, 35, -60],
+			"faces": {
+				"north": {"uv": [0, 13, 4, 16], "texture": "#0"},
+				"east": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 13, 16, 16], "texture": "#0"},
+				"up": {"uv": [12, 4, 16, 12], "texture": "#4"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_2_connections_opposite",
+			"from": [52, 35, -67],
+			"to": [56, 48, -61],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 13], "texture": "#2"},
+				"east": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 13], "texture": "#2"},
+				"up": {"uv": [12, 5, 16, 11], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_0",
+			"from": [44, 64, 92],
+			"to": [52, 80, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_1",
+			"from": [44, 64, 58],
+			"to": [52, 80, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_1",
+			"from": [52, 76, 59],
+			"to": [56, 80, 69],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_1",
+			"from": [52, 64, 61],
+			"to": [56, 76, 67],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 5, 16, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_2",
+			"from": [42, 64, 26],
+			"to": [54, 80, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_2",
+			"from": [54, 64, 29],
+			"to": [56, 76, 35],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 5, 16, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_2",
+			"from": [54, 76, 27],
+			"to": [56, 80, 37],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_2",
+			"from": [45, 64, 38],
+			"to": [51, 76, 40],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [5, 0, 11, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_2",
+			"from": [43, 76, 38],
+			"to": [53, 80, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [40, 64, -3],
+			"to": [44, 76, 0],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [5, 4, 8, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 8, 4, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [40, 76, -5],
+			"to": [44, 80, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 8, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 8, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [44, 64, -6],
+			"to": [52, 80, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [52, 76, -5],
+			"to": [56, 80, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 3, 16, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 8, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [52, 64, -3],
+			"to": [56, 76, 0],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [8, 4, 11, 16], "texture": "#2", "cullface": "east"},
+				"down": {"uv": [12, 8, 16, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [42, 64, 0],
+			"to": [54, 80, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [40, 64, 0],
+			"to": [42, 76, 3],
+			"faces": {
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [8, 4, 11, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 5, 2, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [40, 76, 0],
+			"to": [42, 80, 5],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [54, 64, 0],
+			"to": [56, 76, 3],
+			"faces": {
+				"east": {"uv": [5, 4, 8, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 5, 16, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [54, 76, 0],
+			"to": [56, 80, 5],
+			"faces": {
+				"east": {"uv": [3, 0, 8, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 8, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [45, 64, 6],
+			"to": [51, 76, 8],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [5, 0, 11, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_3",
+			"from": [43, 76, 6],
+			"to": [53, 80, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [42, 64, -38],
+			"to": [54, 80, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [43, 76, -26],
+			"to": [53, 80, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [45, 64, -26],
+			"to": [51, 76, -24],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [5, 0, 11, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [54, 76, -37],
+			"to": [56, 80, -27],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [54, 64, -35],
+			"to": [56, 76, -29],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 5, 16, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [45, 64, -40],
+			"to": [51, 76, -38],
+			"faces": {
+				"north": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"down": {"uv": [5, 14, 11, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [43, 76, -40],
+			"to": [53, 80, -38],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [3, 0, 13, 2], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 14, 13, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [40, 64, -35],
+			"to": [42, 76, -29],
+			"faces": {
+				"north": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 5, 2, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_4",
+			"from": [40, 76, -37],
+			"to": [42, 80, -27],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_opposite",
+			"from": [44, 64, -70],
+			"to": [52, 80, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_opposite",
+			"from": [40, 76, -69],
+			"to": [44, 80, -59],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_opposite",
+			"from": [40, 64, -67],
+			"to": [44, 76, -61],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"west": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 5, 4, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_opposite",
+			"from": [52, 64, -67],
+			"to": [56, 76, -61],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 5, 16, 11], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_3_connections_opposite",
+			"from": [52, 76, -69],
+			"to": [56, 80, -59],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_0",
+			"from": [44, 96, 92],
+			"to": [52, 112, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_1",
+			"from": [48, 96, 56],
+			"to": [52, 100, 58],
+			"faces": {
+				"north": {"uv": [4, 12, 8, 16], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [0, 12, 2, 16], "texture": "#0"},
+				"up": {"uv": [8, 0, 12, 2], "texture": "#4"},
+				"down": {"uv": [8, 14, 12, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_1",
+			"from": [48, 96, 70],
+			"to": [52, 100, 72],
+			"faces": {
+				"south": {"uv": [8, 12, 12, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 12, 16, 16], "texture": "#0"},
+				"up": {"uv": [8, 14, 12, 16], "texture": "#4"},
+				"down": {"uv": [8, 0, 12, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_1",
+			"from": [44, 96, 58],
+			"to": [52, 112, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_1",
+			"from": [52, 100, 60],
+			"to": [56, 112, 68],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_1",
+			"from": [52, 96, 56],
+			"to": [56, 100, 72],
+			"faces": {
+				"north": {"uv": [0, 12, 4, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [12, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [12, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [50, 96, 24],
+			"to": [54, 100, 26],
+			"faces": {
+				"north": {"uv": [2, 12, 6, 16], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [0, 12, 2, 16], "texture": "#0"},
+				"up": {"uv": [10, 0, 14, 2], "texture": "#4"},
+				"down": {"uv": [10, 14, 14, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [40, 96, 34],
+			"to": [42, 100, 40],
+			"faces": {
+				"north": {"uv": [14, 12, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 12, 2, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [10, 12, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 10, 2, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [42, 96, 26],
+			"to": [54, 112, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [54, 96, 24],
+			"to": [56, 100, 40],
+			"faces": {
+				"north": {"uv": [0, 12, 2, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 12, 16, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [14, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [54, 100, 28],
+			"to": [56, 112, 36],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [42, 96, 38],
+			"to": [54, 100, 40],
+			"faces": {
+				"south": {"uv": [2, 12, 14, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#4"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_2",
+			"from": [44, 100, 38],
+			"to": [52, 112, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [40, 96, -8],
+			"to": [44, 100, 0],
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [0, 12, 8, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 8], "texture": "#4"},
+				"down": {"uv": [0, 8, 4, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [40, 100, -4],
+			"to": [44, 112, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [4, 0, 8, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 4, 4, 8], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [44, 96, -8],
+			"to": [52, 100, -6],
+			"faces": {
+				"north": {"uv": [4, 12, 12, 16], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [4, 0, 12, 2], "texture": "#4"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [44, 96, -6],
+			"to": [52, 112, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [52, 100, -4],
+			"to": [56, 112, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"east": {"uv": [8, 0, 12, 12], "texture": "#2", "cullface": "east"},
+				"up": {"uv": [12, 4, 16, 8], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [52, 96, -8],
+			"to": [56, 100, 0],
+			"faces": {
+				"north": {"uv": [0, 12, 4, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [8, 12, 16, 16], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 0, 16, 8], "texture": "#4"},
+				"down": {"uv": [12, 8, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [42, 96, 0],
+			"to": [54, 112, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [40, 96, 0],
+			"to": [42, 100, 8],
+			"faces": {
+				"south": {"uv": [0, 12, 2, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [8, 12, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 8], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [40, 100, 0],
+			"to": [42, 112, 4],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"west": {"uv": [8, 0, 12, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [54, 96, 0],
+			"to": [56, 100, 8],
+			"faces": {
+				"east": {"uv": [0, 12, 8, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 12, 16, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 8, 16, 16], "texture": "#4"},
+				"down": {"uv": [14, 0, 16, 8], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [54, 100, 0],
+			"to": [56, 112, 4],
+			"faces": {
+				"east": {"uv": [4, 0, 8, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [14, 8, 16, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [42, 96, 6],
+			"to": [54, 100, 8],
+			"faces": {
+				"south": {"uv": [2, 12, 14, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#4"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_3",
+			"from": [44, 100, 6],
+			"to": [52, 112, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [42, 96, -38],
+			"to": [54, 112, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [44, 100, -26],
+			"to": [52, 112, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [42, 96, -26],
+			"to": [54, 100, -24],
+			"faces": {
+				"south": {"uv": [2, 12, 14, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#4"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [54, 100, -36],
+			"to": [56, 112, -28],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [54, 96, -40],
+			"to": [56, 100, -24],
+			"faces": {
+				"north": {"uv": [0, 12, 2, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 12, 16, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [14, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [42, 96, -40],
+			"to": [54, 100, -38],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 16], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [2, 0, 14, 2], "texture": "#4"},
+				"down": {"uv": [2, 14, 14, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [44, 100, -40],
+			"to": [52, 112, -38],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"up": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [40, 96, -40],
+			"to": [42, 100, -24],
+			"faces": {
+				"north": {"uv": [14, 12, 16, 16], "texture": "#0", "cullface": "north"},
+				"south": {"uv": [0, 12, 2, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 2, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_4",
+			"from": [40, 100, -36],
+			"to": [42, 112, -28],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 12], "texture": "#2"},
+				"south": {"uv": [0, 0, 2, 12], "texture": "#2"},
+				"west": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 4, 2, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [44, 96, -70],
+			"to": [52, 112, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [44, 96, -58],
+			"to": [52, 100, -56],
+			"faces": {
+				"south": {"uv": [4, 12, 12, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [4, 14, 12, 16], "texture": "#4"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [40, 100, -68],
+			"to": [44, 112, -60],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 12], "texture": "#2"},
+				"south": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"west": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 4, 4, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [40, 96, -72],
+			"to": [44, 100, -56],
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#0", "cullface": "north"},
+				"south": {"uv": [0, 12, 4, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 4, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [44, 96, -72],
+			"to": [52, 100, -70],
+			"faces": {
+				"north": {"uv": [4, 12, 12, 16], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [4, 0, 12, 2], "texture": "#4"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [52, 96, -72],
+			"to": [56, 100, -56],
+			"faces": {
+				"north": {"uv": [0, 12, 4, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [12, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [12, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_4_connections_opposite",
+			"from": [52, 100, -68],
+			"to": [56, 112, -60],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 12], "texture": "#2"},
+				"up": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_0",
+			"from": [44, 128, 92],
+			"to": [52, 144, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_1",
+			"from": [44, 128, 58],
+			"to": [52, 144, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_1",
+			"from": [52, 140, 59],
+			"to": [56, 144, 69],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_1",
+			"from": [52, 128, 60],
+			"to": [56, 140, 68],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_2",
+			"from": [42, 128, 26],
+			"to": [54, 144, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_2",
+			"from": [54, 128, 28],
+			"to": [56, 140, 36],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_2",
+			"from": [54, 140, 27],
+			"to": [56, 144, 37],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_2",
+			"from": [44, 128, 38],
+			"to": [52, 140, 40],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_2",
+			"from": [43, 140, 38],
+			"to": [53, 144, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [40, 128, -4],
+			"to": [44, 140, 0],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 8, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 8, 4, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [40, 140, -5],
+			"to": [44, 144, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 8, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 8, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [44, 128, -6],
+			"to": [52, 144, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [52, 140, -5],
+			"to": [56, 144, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 3, 16, 8], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 8, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [52, 128, -4],
+			"to": [56, 140, 0],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [8, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"down": {"uv": [12, 8, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [42, 128, 0],
+			"to": [54, 144, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [40, 128, 0],
+			"to": [42, 140, 4],
+			"faces": {
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [8, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [40, 140, 0],
+			"to": [42, 144, 5],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [54, 128, 0],
+			"to": [56, 140, 4],
+			"faces": {
+				"east": {"uv": [4, 4, 8, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [54, 140, 0],
+			"to": [56, 144, 5],
+			"faces": {
+				"east": {"uv": [3, 0, 8, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 8, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [44, 128, 6],
+			"to": [52, 140, 8],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_3",
+			"from": [43, 140, 6],
+			"to": [53, 144, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [42, 128, -38],
+			"to": [54, 144, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [43, 140, -26],
+			"to": [53, 144, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"south": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [3, 14, 13, 16], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 0, 13, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [44, 128, -26],
+			"to": [52, 140, -24],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [54, 140, -37],
+			"to": [56, 144, -27],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [14, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [54, 128, -36],
+			"to": [56, 140, -28],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [44, 128, -40],
+			"to": [52, 140, -38],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [43, 140, -40],
+			"to": [53, 144, -38],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [3, 0, 13, 2], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [3, 14, 13, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [40, 128, -36],
+			"to": [42, 140, -28],
+			"faces": {
+				"north": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_4",
+			"from": [40, 140, -37],
+			"to": [42, 144, -27],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 2, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 2, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_opposite",
+			"from": [44, 128, -70],
+			"to": [52, 144, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_opposite",
+			"from": [40, 140, -69],
+			"to": [44, 144, -59],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 4, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [0, 3, 4, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_opposite",
+			"from": [40, 128, -68],
+			"to": [44, 140, -60],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 4, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_opposite",
+			"from": [52, 128, -68],
+			"to": [56, 140, -60],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_5_connections_opposite",
+			"from": [52, 140, -69],
+			"to": [56, 144, -59],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 3, 16, 13], "texture": "#4", "cullface": "up"},
+				"down": {"uv": [12, 3, 16, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_0",
+			"from": [44, 160, 92],
+			"to": [52, 176, 100],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_1",
+			"from": [48, 172, 57],
+			"to": [52, 176, 58],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [8, 1, 12, 2], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [8, 14, 12, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_1",
+			"from": [48, 172, 70],
+			"to": [52, 176, 71],
+			"faces": {
+				"south": {"uv": [8, 0, 12, 4], "texture": "#0"},
+				"west": {"uv": [14, 0, 15, 4], "texture": "#0"},
+				"up": {"uv": [8, 14, 12, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [8, 1, 12, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_1",
+			"from": [44, 160, 58],
+			"to": [52, 176, 70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_1",
+			"from": [52, 172, 57],
+			"to": [56, 176, 71],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 1, 16, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [12, 1, 16, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_1",
+			"from": [52, 160, 60],
+			"to": [56, 172, 68],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [50, 172, 25],
+			"to": [54, 176, 26],
+			"faces": {
+				"north": {"uv": [2, 0, 6, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 2, 4], "texture": "#0"},
+				"up": {"uv": [10, 1, 14, 2], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [10, 14, 14, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [41, 172, 34],
+			"to": [42, 176, 40],
+			"faces": {
+				"north": {"uv": [14, 0, 15, 4], "texture": "#0"},
+				"south": {"uv": [1, 0, 2, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [10, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [1, 10, 2, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [1, 0, 2, 6], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [42, 160, 26],
+			"to": [54, 176, 38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [54, 172, 39],
+			"to": [55, 176, 40],
+			"faces": {
+				"east": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"south": {"uv": [14, 0, 15, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 15, 15, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 0, 15, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [54, 160, 28],
+			"to": [56, 172, 36],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [54, 172, 25],
+			"to": [56, 176, 39],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 1, 16, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 1, 16, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [44, 160, 38],
+			"to": [52, 172, 40],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_2",
+			"from": [42, 172, 38],
+			"to": [54, 176, 40],
+			"faces": {
+				"south": {"uv": [2, 0, 14, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [40, 160, -4],
+			"to": [44, 172, 0],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 8, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 8, 4, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [40, 172, -7],
+			"to": [44, 176, 0],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 8, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 1, 4, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 8, 4, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [44, 172, -7],
+			"to": [52, 176, -6],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 4], "texture": "#0"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 14, 12, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [44, 160, -6],
+			"to": [52, 176, 0],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 8, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [52, 172, -7],
+			"to": [56, 176, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 15, 4], "texture": "#0", "cullface": "east"},
+				"up": {"uv": [12, 1, 16, 8], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [12, 8, 16, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [52, 160, -4],
+			"to": [56, 172, 0],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [8, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"down": {"uv": [12, 8, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [42, 160, 0],
+			"to": [54, 176, 6],
+			"faces": {
+				"east": {"uv": [2, 0, 8, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [8, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 8, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 8], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [40, 160, 0],
+			"to": [42, 172, 4],
+			"faces": {
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [8, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [40, 172, 0],
+			"to": [42, 176, 7],
+			"faces": {
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 15, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 8, 2, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 1, 2, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [54, 160, 0],
+			"to": [56, 172, 4],
+			"faces": {
+				"east": {"uv": [4, 4, 8, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [54, 172, 0],
+			"to": [56, 176, 7],
+			"faces": {
+				"east": {"uv": [1, 0, 8, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 8, 16, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 1, 16, 8], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [54, 172, 7],
+			"to": [55, 176, 8],
+			"faces": {
+				"east": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"south": {"uv": [14, 0, 15, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 15, 15, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 0, 15, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [41, 172, 7],
+			"to": [42, 176, 8],
+			"faces": {
+				"south": {"uv": [1, 0, 2, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [15, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [1, 15, 2, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [1, 0, 2, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [44, 160, 6],
+			"to": [52, 172, 8],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_3",
+			"from": [42, 172, 6],
+			"to": [54, 176, 8],
+			"faces": {
+				"south": {"uv": [2, 0, 14, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [42, 160, -38],
+			"to": [54, 176, -26],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [54, 172, -25],
+			"to": [55, 176, -24],
+			"faces": {
+				"east": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"south": {"uv": [14, 0, 15, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [14, 15, 15, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 0, 15, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [54, 172, -40],
+			"to": [55, 176, -39],
+			"faces": {
+				"north": {"uv": [1, 0, 2, 4], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [15, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 0, 15, 1], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 15, 15, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [41, 172, -40],
+			"to": [42, 176, -39],
+			"faces": {
+				"north": {"uv": [14, 0, 15, 4], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [0, 0, 1, 4], "texture": "#0"},
+				"up": {"uv": [1, 0, 2, 1], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [1, 15, 2, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [41, 172, -25],
+			"to": [42, 176, -24],
+			"faces": {
+				"south": {"uv": [1, 0, 2, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [15, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [1, 15, 2, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [1, 0, 2, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [42, 172, -26],
+			"to": [54, 176, -24],
+			"faces": {
+				"south": {"uv": [2, 0, 14, 4], "texture": "#0", "cullface": "south"},
+				"up": {"uv": [2, 14, 14, 16], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 0, 14, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [44, 160, -26],
+			"to": [52, 172, -24],
+			"faces": {
+				"east": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [4, 0, 12, 2], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [54, 172, -39],
+			"to": [56, 176, -25],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [14, 1, 16, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [14, 1, 16, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [54, 160, -36],
+			"to": [56, 172, -28],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [14, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [44, 160, -40],
+			"to": [52, 172, -38],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"down": {"uv": [4, 14, 12, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [42, 172, -40],
+			"to": [54, 176, -38],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 4], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [2, 0, 14, 2], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [2, 14, 14, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [40, 160, -36],
+			"to": [42, 172, -28],
+			"faces": {
+				"north": {"uv": [14, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 2, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 2, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_4",
+			"from": [40, 172, -39],
+			"to": [42, 176, -25],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 1, 2, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 1, 2, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [44, 160, -70],
+			"to": [52, 176, -58],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"up": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 2, 12, 14], "texture": "#3", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [44, 172, -58],
+			"to": [52, 176, -57],
+			"faces": {
+				"south": {"uv": [4, 0, 12, 4], "texture": "#0"},
+				"up": {"uv": [4, 14, 12, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 1, 12, 2], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [40, 172, -71],
+			"to": [44, 176, -57],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 1, 4, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [0, 1, 4, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [40, 160, -68],
+			"to": [44, 172, -60],
+			"faces": {
+				"north": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 4, 4, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [44, 172, -71],
+			"to": [52, 176, -70],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 4], "texture": "#0"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 14, 12, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [52, 160, -68],
+			"to": [56, 172, -60],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 16], "texture": "#2"},
+				"east": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 4, 16, 16], "texture": "#2"},
+				"down": {"uv": [12, 4, 16, 12], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_post_level_6_connections_opposite",
+			"from": [52, 172, -71],
+			"to": [56, 176, -57],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [12, 1, 16, 15], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [12, 1, 16, 15], "texture": "#4"}
+			}
+		},
+		{
+			"name": "dao_wall_level_1",
+			"from": [40, 0, -100],
+			"to": [56, 13, -92],
+			"faces": {
+				"north": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"east": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 3, 16, 16], "texture": "#1"},
+				"west": {"uv": [4, 3, 12, 16], "texture": "#1", "cullface": "west"},
+				"down": {"uv": [0, 4, 16, 12], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_wall_level_1",
+			"from": [40, 13, -101],
+			"to": [56, 16, -91],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 3], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 3, 16, 13], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 3, 16, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dao_wall_level_2",
+			"from": [40, 35, -99],
+			"to": [56, 48, -93],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 13], "texture": "#2"},
+				"east": {"uv": [0, 0, 6, 13], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 13], "texture": "#2"},
+				"west": {"uv": [5, 0, 11, 13], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 6], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_wall_level_2",
+			"from": [40, 32, -100],
+			"to": [56, 35, -92],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 3], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [4, 13, 12, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_wall_level_3",
+			"from": [40, 76, -101],
+			"to": [56, 80, -91],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 10, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 10], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dao_wall_level_3",
+			"from": [40, 64, -99],
+			"to": [56, 76, -93],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 6, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [5, 4, 11, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 0, 16, 6], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_wall_level_4",
+			"from": [40, 100, -100],
+			"to": [56, 112, -92],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 8, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "dao_wall_level_4",
+			"from": [40, 96, -104],
+			"to": [56, 100, -88],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_wall_level_5",
+			"from": [40, 140, -101],
+			"to": [56, 144, -91],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 10, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [3, 0, 13, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 10], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dao_wall_level_5",
+			"from": [40, 128, -100],
+			"to": [56, 140, -92],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 8, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "dao_wall_level_6",
+			"from": [40, 172, -103],
+			"to": [56, 176, -89],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 4], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [1, 0, 15, 4], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 14], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dao_wall_level_6",
+			"from": [40, 160, -100],
+			"to": [56, 172, -92],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 8, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 12], "texture": "#2"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#2", "cullface": "west"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#2", "cullface": "down"}
+			}
+		}
+	]
+}

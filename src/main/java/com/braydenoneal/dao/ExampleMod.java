@@ -1,8 +1,7 @@
 package com.braydenoneal.dao;
 
 import com.braydenoneal.dao.blocks.DaoBlock;
-import com.braydenoneal.dao.model.Element;
-import com.braydenoneal.dao.model.Model;
+import com.braydenoneal.dao.util.json.model.Model;
 import com.google.gson.Gson;
 import net.fabricmc.api.ModInitializer;
 
@@ -23,7 +22,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
@@ -40,32 +38,27 @@ public class ExampleMod implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registries.ITEM_GROUP, new Identifier("dao", "dao"), ITEM_GROUP);
 
-		Reader reader = new InputStreamReader(Objects.requireNonNull(ModInitializer.class.getResourceAsStream("/dao_blocks_all.json")));
+		Reader reader = new InputStreamReader(Objects.requireNonNull(ModInitializer.class.getResourceAsStream("/assets/dao/models/block/dao_blocks_all.json")));
 		Model model = new Gson().fromJson(reader, Model.class);
 
 		// Get list of unique element names
-		List<String> elementNames = new ArrayList<>();
-
-		for (Element element : model.elements) {
-			if (!elementNames.contains(element.name)) {
-				elementNames.add(element.name);
-			}
-		}
+		Stream<String> elementNames = model.elements
+				.stream()
+				.map(element -> element.name)
+				.distinct();
 
 		// Create block for each unique element name
-		for (String elementName : elementNames) {
-			List<List<Integer>> element_shapes = new ArrayList<>();
+		elementNames.forEach(elementName -> {
+			List<List<Integer>> elementShapes = model.elements
+					.stream()
+					.filter(element -> element.name.equals(elementName))
+					.map(element -> Stream.concat(element.from.stream(), element.to.stream()).toList())
+					.toList();
 
-			for (Element element : model.elements) {
-				if (element.name.equals(elementName)) {
-					element_shapes.add(Stream.concat(element.from.stream(), element.to.stream()).toList());
-				}
-			}
-
-			Block block = new DaoBlock(FabricBlockSettings.create().strength(4.0f), element_shapes);
+			Block block = new DaoBlock(FabricBlockSettings.create().strength(4.0f), elementShapes);
 			Registry.register(Registries.BLOCK, new Identifier("dao", elementName), block);
 			Registry.register(Registries.ITEM, new Identifier("dao", elementName), new BlockItem(block, new FabricItemSettings()));
 			ItemGroupEvents.modifyEntriesEvent(RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier("dao", "dao"))).register(entries -> entries.add(block));
-		}
+		});
 	}
 }

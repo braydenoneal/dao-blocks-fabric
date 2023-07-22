@@ -408,6 +408,9 @@
     "2": "dao:block/wall",
     "3": "dao:block/column",
     "4": "dao:block/beam_top",
+    "5": "dao:block/cut_stone",
+    "6": "dao:block/mat_bottom",
+    "7": "dao:block/mat_top",
     "particle": "dao:block/beam"
   }
 }

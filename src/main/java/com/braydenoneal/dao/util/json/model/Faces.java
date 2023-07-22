@@ -1,4 +1,4 @@
-package com.braydenoneal.dao.model;
+package com.braydenoneal.dao.util.json.model;
 
 public class Faces {
 	public Face north;

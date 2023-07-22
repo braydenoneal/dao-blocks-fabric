@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dao:block/mat_top",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dao:block/mat_top",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dao:block/mat_top",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "dao:block/mat_top",
+      "y": 90
+    }
+  }
+}
